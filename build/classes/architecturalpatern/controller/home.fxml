@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="architecturalpatern.controller.HomeController">
+   <children>
+      <Pane layoutY="14.0" prefHeight="62.0" prefWidth="463.0" style="-fx-background-color: #10739a;">
+         <children>
+            <Text fill="#e8edee" fontSmoothingType="LCD" layoutX="14.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Architectural Patern" textAlignment="CENTER" wrappingWidth="429.13671875">
+               <font>
+                  <Font name="Bodoni MT Bold" size="32.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="111.0" layoutY="91.0" prefHeight="176.0" prefWidth="307.0">
+         <children>
+            <Circle fill="#10739a" layoutX="8.0" layoutY="54.0" opacity="0.87" radius="8.0" stroke="#e8e2e2" strokeType="INSIDE" />
+            <Text fill="#5b5b5b" layoutX="48.0" layoutY="62.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MVC pattern" wrappingWidth="144.13671875">
+               <font>
+                  <Font name="SansSerif Regular" size="23.0" />
+               </font>
+            </Text>
+            <Text fill="#5b5b5b" layoutX="44.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Broker pattern" wrappingWidth="151.13671875">
+               <font>
+                  <Font name="SansSerif Regular" size="23.0" />
+               </font>
+            </Text>
+            <Circle fill="#10739a" layoutX="8.0" layoutY="96.0" opacity="0.87" radius="8.0" stroke="#e8e2e2" strokeType="INSIDE" />
+            <Button fx:id="start" layoutX="89.0" layoutY="150.0" mnemonicParsing="false" onAction="#toMain" prefHeight="25.0" prefWidth="92.0" style="-fx-background-color: #10739a;" text="Start" textFill="#fcf9f9" />
+         </children>
+      </Pane>
+      <Pane layoutX="400.0" layoutY="344.0" prefHeight="70.0" prefWidth="200.0">
+         <children>
+            <Text layoutX="13.0" layoutY="20.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Gemmechu Mohammed" wrappingWidth="173.13671875">
+               <font>
+                  <Font name="Calisto MT" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="13.0" layoutY="41.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ATR/1432/09" wrappingWidth="173.13671875">
+               <font>
+                  <Font name="Calisto MT" size="15.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>

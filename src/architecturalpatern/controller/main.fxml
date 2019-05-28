@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #fffffd;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="architecturalpatern.controller.MainController">
+   <children>
+      <Pane layoutX="20.0" layoutY="86.0" prefHeight="166.0" prefWidth="144.0">
+         <children>
+            <TextField fx:id="headerTf" layoutX="5.0" layoutY="42.0" prefHeight="25.0" prefWidth="135.0" promptText="header" />
+            <TextField fx:id="bodyTf" layoutX="5.0" layoutY="78.0" prefHeight="25.0" prefWidth="135.0" promptText="Body" />
+            <Button layoutX="51.0" layoutY="124.0" mnemonicParsing="false" onAction="#send" text="Send" />
+            <Text fill="#10739a" layoutX="1.0" layoutY="6.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sender" textAlignment="CENTER" wrappingWidth="125.0">
+               <font>
+                  <Font name="Bell MT Bold" size="16.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane layoutX="240.0" layoutY="-2.0" prefHeight="407.0" prefWidth="104.0" style="-fx-background-color: #f4f1f1;">
+         <children>
+            <Text fill="#0a0a0a" layoutX="-100.0" layoutY="201.0" rotate="-90.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Broker" textAlignment="CENTER" wrappingWidth="303.0">
+               <font>
+                  <Font size="55.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane1" layoutX="413.0" layoutY="33.0" prefHeight="79.0" prefWidth="88.0" style="-fx-background-color: #f4f1f1;">
+         <children>
+            <Text fill="#1b7497" layoutX="31.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C1" wrappingWidth="42.5078125">
+               <font>
+                  <Font name="Bell MT" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane2" layoutX="413.0" layoutY="151.0" prefHeight="79.0" prefWidth="88.0" style="-fx-background-color: #f4f1f1;">
+         <children>
+            <Text fill="#1b7497" layoutX="31.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C2" wrappingWidth="42.5078125">
+               <font>
+                  <Font name="Bell MT" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Pane fx:id="pane3" layoutX="413.0" layoutY="276.0" prefHeight="79.0" prefWidth="88.0" style="-fx-background-color: #f4f1f1;">
+         <children>
+            <Text fill="#1b7497" layoutX="31.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="C3" wrappingWidth="42.5078125">
+               <font>
+                  <Font name="Bell MT" size="25.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
+      <Text fx:id="t1" layoutX="512.0" layoutY="77.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="73.154296875" />
+      <Text fx:id="t2" layoutX="512.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="73.154296875" />
+      <Text fx:id="t3" layoutX="512.0" layoutY="320.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="73.154296875" />
+      <Pane layoutX="20.0" layoutY="276.0" prefHeight="122.0" prefWidth="144.0">
+         <children>
+            <Text fill="#1a87ae" layoutX="3.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Eg">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Text>
+            <Text layoutX="3.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="header =1" wrappingWidth="88.0" />
+            <Text layoutX="3.0" layoutY="66.0" strokeType="OUTSIDE" strokeWidth="0.0" text="body= hello c1" wrappingWidth="88.0" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
